@@ -19,8 +19,34 @@ import java.net.UnknownHostException;
  */
 public class ConexionAgro {
     
+    private static ConexionAgro instance;
     
     DB baseDatos;
+    DBCollection coleccion;
+    BasicDBObject documento = new BasicDBObject();
+    
+    private ConexionAgro(){
+    }
+    
+    public static ConexionAgro getInstance (){
+         if (instance== null)
+            instance= new ConexionAgro();
+        return instance;
+    }
+    
+    public void Conexion(){
+        try{
+           MongoClient mongo = new MongoClient("localhost", 27017);
+           baseDatos= mongo.getDB("Agroquimico");
+           coleccion= baseDatos.getCollection("Usuario");
+           System.out.println("conexion a base de datos exitoso..");
+        }
+        catch(Exception e){
+        
+        }
+    }
+    
+    /*DB baseDatos;
     DBCollection coleccion;
     BasicDBObject documento = new BasicDBObject();
     
@@ -34,7 +60,7 @@ public class ConexionAgro {
         catch(Exception e){
         
         }
-    }
+    }*/
 
    
     

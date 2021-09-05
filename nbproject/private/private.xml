@@ -3,9 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/D:/Users/Martin/Desktop/Martin/Universidad/Segundo%20Nivel/Programacion%20orientada%20a%20objetos/Proyectos_java/AgroquimicosApp/src/vista/CompradorFrm.java</file>
             <file>file:/D:/Users/Martin/Desktop/Martin/Universidad/Segundo%20Nivel/Programacion%20orientada%20a%20objetos/Proyectos_java/AgroquimicosApp/src/vista/RegistroFrm.java</file>
+            <file>file:/D:/Users/Martin/Desktop/Martin/Universidad/Segundo%20Nivel/Programacion%20orientada%20a%20objetos/Proyectos_java/AgroquimicosApp/src/modelo/UsuarioDAO.java</file>
+            <file>file:/D:/Users/Martin/Desktop/Martin/Universidad/Segundo%20Nivel/Programacion%20orientada%20a%20objetos/Proyectos_java/AgroquimicosApp/src/modelo/ConexionAgro.java</file>
             <file>file:/D:/Users/Martin/Desktop/Martin/Universidad/Segundo%20Nivel/Programacion%20orientada%20a%20objetos/Proyectos_java/AgroquimicosApp/src/vista/AgroquimicoFrm.java</file>
-            <file>file:/D:/Users/Martin/Desktop/Martin/Universidad/Segundo%20Nivel/Programacion%20orientada%20a%20objetos/Proyectos_java/AgroquimicosApp/src/modelo/Conexion.java</file>
+            <file>file:/D:/Users/Martin/Desktop/Martin/Universidad/Segundo%20Nivel/Programacion%20orientada%20a%20objetos/Proyectos_java/AgroquimicosApp/src/controlador/ControladorLogin.java</file>
+            <file>file:/D:/Users/Martin/Desktop/Martin/Universidad/Segundo%20Nivel/Programacion%20orientada%20a%20objetos/Proyectos_java/AgroquimicosApp/src/modelo/Usuario.java</file>
+            <file>file:/D:/Users/Martin/Desktop/Martin/Universidad/Segundo%20Nivel/Programacion%20orientada%20a%20objetos/Proyectos_java/AgroquimicosApp/src/controlador/ControladorUsuario.java</file>
+            <file>file:/D:/Users/Martin/Desktop/Martin/Universidad/Segundo%20Nivel/Programacion%20orientada%20a%20objetos/Proyectos_java/AgroquimicosApp/src/vista/VendedorFrm.java</file>
         </group>
     </open-files>
 </project-private>

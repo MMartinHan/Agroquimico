@@ -29,7 +29,17 @@ public class Usuario {
 
     public Usuario() {
     }
+
+    public Usuario(String nombreUsuario, String contrasenia) {
+        this.nombreUsuario = nombreUsuario;
+        this.contrasenia = contrasenia;
+    }
+
+    public Usuario(String nombreUsuario) {
+        this.nombreUsuario = nombreUsuario;
+    }
     
+
 
     public String getNombre() {
         return nombre;

@@ -5,6 +5,7 @@
  */
 package vista;
 
+import controlador.ControladorLogin;
 import controlador.ControladorUsuario;
 
 /**
@@ -52,6 +53,7 @@ public class RegistroFrm extends javax.swing.JFrame {
         jLabel9 = new javax.swing.JLabel();
         jcbTipoUsuario = new javax.swing.JComboBox<>();
         btnRegiatrarse = new javax.swing.JButton();
+        lbNotify = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -173,6 +175,10 @@ public class RegistroFrm extends javax.swing.JFrame {
         });
         jPanel2.add(btnRegiatrarse, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 320, 140, 30));
 
+        lbNotify.setFont(new java.awt.Font("Lucida Sans", 1, 18)); // NOI18N
+        lbNotify.setForeground(new java.awt.Color(73, 179, 24));
+        jPanel2.add(lbNotify, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 240, 200, 30));
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -189,18 +195,20 @@ public class RegistroFrm extends javax.swing.JFrame {
 
     private void btnRegiatrarseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegiatrarseActionPerformed
         //ControladorUsuario c = new ControladorUsuario();
+        
+        
     }//GEN-LAST:event_btnRegiatrarseActionPerformed
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String args[]) {
+    /*public static void main(String args[]) {
         RegistroFrm g = new RegistroFrm();
         ControladorUsuario c = new ControladorUsuario(g);
         g.setVisible(true);
         g.setLocationRelativeTo(g);
         
-    }
+    }*/
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton btnRegiatrarse;
@@ -221,6 +229,7 @@ public class RegistroFrm extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator4;
     private javax.swing.JSeparator jSeparator5;
     public javax.swing.JComboBox<String> jcbTipoUsuario;
+    public javax.swing.JLabel lbNotify;
     public javax.swing.JTextField txtApellido;
     public javax.swing.JTextField txtContraseña;
     public javax.swing.JTextField txtCorreo;

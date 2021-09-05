@@ -47,6 +47,7 @@ public class AgroquimicoFrm extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         btnIngresar = new javax.swing.JButton();
         btnRegistrar = new javax.swing.JButton();
+        lbNotify = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -117,6 +118,7 @@ public class AgroquimicoFrm extends javax.swing.JFrame {
 
         txtUsuario.setBackground(new java.awt.Color(33, 59, 16));
         txtUsuario.setFont(new java.awt.Font("Lucida Sans", 1, 18)); // NOI18N
+        txtUsuario.setForeground(new java.awt.Color(0, 0, 0));
         txtUsuario.setBorder(null);
         txtUsuario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -126,6 +128,7 @@ public class AgroquimicoFrm extends javax.swing.JFrame {
 
         txtContraseña.setBackground(new java.awt.Color(33, 59, 16));
         txtContraseña.setFont(new java.awt.Font("Lucida Sans", 1, 18)); // NOI18N
+        txtContraseña.setForeground(new java.awt.Color(0, 0, 0));
         txtContraseña.setBorder(null);
 
         jSeparator1.setBackground(new java.awt.Color(73, 179, 24));
@@ -152,6 +155,8 @@ public class AgroquimicoFrm extends javax.swing.JFrame {
                 btnRegistrarActionPerformed(evt);
             }
         });
+
+        lbNotify.setForeground(new java.awt.Color(0, 0, 0));
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -185,6 +190,10 @@ public class AgroquimicoFrm extends javax.swing.JFrame {
                     .addComponent(btnIngresar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnRegistrar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addGap(100, 100, 100)
+                .addComponent(lbNotify, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -210,11 +219,13 @@ public class AgroquimicoFrm extends javax.swing.JFrame {
                         .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(61, 61, 61)
+                .addGap(33, 33, 33)
+                .addComponent(lbNotify, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(btnRegistrar)
-                .addContainerGap(76, Short.MAX_VALUE))
+                .addContainerGap(62, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(371, 0, 460, 600));
@@ -227,17 +238,17 @@ public class AgroquimicoFrm extends javax.swing.JFrame {
     }//GEN-LAST:event_txtUsuarioActionPerformed
 
     private void btnRegistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistrarActionPerformed
-        
+        dispose();
     }//GEN-LAST:event_btnRegistrarActionPerformed
 
     /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        AgroquimicoFrm  g = new AgroquimicoFrm();
-        ControladorLogin c = new ControladorLogin(g);
-        g.setVisible(true);
-        g.setLocationRelativeTo(g);
+        AgroquimicoFrm a = new AgroquimicoFrm();
+        ControladorLogin c = new ControladorLogin(a);
+        a.setVisible(true);
+        a.setLocationRelativeTo(a);
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -255,6 +266,7 @@ public class AgroquimicoFrm extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel4;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
+    public javax.swing.JLabel lbNotify;
     public javax.swing.JPasswordField txtContraseña;
     public javax.swing.JTextField txtUsuario;
     // End of variables declaration//GEN-END:variables
